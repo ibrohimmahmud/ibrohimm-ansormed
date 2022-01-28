@@ -1,0 +1,257 @@
+body{
+    margin: 0;
+    font-family:"Open Sans Condensed";
+}
+
+.container{
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__container--list{
+    display:flex;
+    margin: 0;
+    font-family: "Open Sans";
+    align-items: center;
+}
+
+.site-logo__title{
+    text-decoration: none;
+    color:#222222;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33px;
+    margin-left: 16px;
+
+}
+
+.site-nav{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+ 
+.site-list:not(:first-child){
+    margin-left: 32px;
+}
+
+.site-list__link{
+    text-decoration: none;
+    color: #222222;;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-family:"Open Sans";
+    line-height: 150%;
+    font-weight: bold;
+    font-style: normal;
+}
+.site-link{
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 12px 22px;
+    border: 1px solid #de2e54;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: #DE2E54;
+    display: inline-block;
+}
+
+.box{
+    background-color: #0EB4C1;
+    padding-top: 29px;
+}
+
+.box__inner{
+    display: flex;
+    align-items:center;
+} 
+
+.box__title{
+    font-style: normal;
+    font-size: 36px;
+    line-height: 120%;
+    margin-bottom: 0;
+}
+
+.box__text{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height:150%;
+    margin-top: 16px;
+}
+
+.box__list{
+    color: #ffffff;
+}
+
+.box__link{
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 36px;
+}
+
+.box__img{
+    margin-left: auto;
+}
+
+.hero-list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+} 
+
+.hero-list:not(:first-child){
+    margin-top: 56px;
+}
+
+.hero-list__item{
+    display: flex;
+    align-items: center;
+}
+
+.hero-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 120%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.hero-img{
+    margin-right: 64px;
+}
+   
+.hero-list__item:not(:first-child){
+    margin-top: 48px;
+}
+
+.hero__title{
+    margin: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+    color:#222222;
+}
+
+.hero__text{
+    margin: 0;
+    margin-top: 24px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #444444;
+}
+
+.hero-link{
+    margin-top: 72px;
+}
+
+.footer__container{
+    background-color: #0EB4C1;
+    padding-top: 64px;
+    margin-top: 132px;
+}
+
+.footer-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footer-title{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 120%;
+    color: #ffffff;
+    margin-bottom: 52px;
+}   
+
+.footer-list{
+   display:flex;
+   margin-bottom: 76px;
+   
+}
+
+.footer-link{
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+    padding: 12px 24px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 120%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+
+.footer-link:first-child{
+    margin-right: 44px;
+}
+
+.footer{
+    background-color: #222222;
+    
+}
+
+.foooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0px 24px ;
+}
+
+.footer__header-list{
+    display: flex;
+    align-items: center;
+    font-family: "open sans";
+   
+}
+
+.footer__link{
+    color: #ffffff;
+}
+
+.footer--link{
+    color: #ffffff;
+}
